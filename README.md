@@ -3,6 +3,8 @@
 
 # micro-status-vigo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-status-vigo.svg)](https://greenkeeper.io/)
+
 Shows status for the vigo bot
 
 ## API
