@@ -1,7 +1,7 @@
 {
   "name": "micro-status-vigo",
   "description": "Shows status vigo bot",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "license": "MIT",
   "private": true,
   "author": {
@@ -45,7 +45,7 @@
     "emails": false
   },
   "devDependencies": {
-    "coveralls": "2.12.0",
+    "coveralls": "2.11.16",
     "nsp": "2.6.3",
     "standard": "8.6.0",
     "tap": "10.2.1"
