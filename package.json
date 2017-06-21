@@ -1,7 +1,7 @@
 {
   "name": "micro-status-vigo",
   "description": "Shows status vigo bot",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "license": "MIT",
   "private": true,
   "author": {
