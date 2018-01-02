@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/telemark/micro-status-vigo.svg?branch=master)](https://travis-ci.org/telemark/micro-status-vigo)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-status-vigo.svg)](https://greenkeeper.io/)
 
 # micro-status-vigo
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-status-vigo.svg)](https://greenkeeper.io/)
 
 Shows status for the vigo bot
 
@@ -43,4 +43,4 @@ $ curl https://vigo.status.t-fk.win/html
 
 [MIT](LICENSE)
 
-![alt text](https://robots.kebabstudios.party/micro-status-vigo.png "Robohash image of micro-status-vigo")
+![Robohash image of micro-status-vigo](https://robots.kebabstudios.party/micro-status-vigo.png "Robohash image of micro-status-vigo")

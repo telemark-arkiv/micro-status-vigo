@@ -1,7 +1,7 @@
 {
   "name": "micro-status-vigo",
   "description": "Shows status vigo bot",
-  "version": "1.0.27",
+  "version": "1.1.0",
   "license": "MIT",
   "private": true,
   "author": {
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.4.0"
+    "node": ">=8.9.3"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -20,8 +20,8 @@
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install",
     "standard-fix": "standard --fix",
-    "start": "NODE_ENV=production micro -p 8080",
-    "dev": "micro",
+    "start": "micro -p 8080",
+    "dev": "micro-dev",
     "now-deploy": "npm test && now --npm && now alias"
   },
   "keywords": [
@@ -33,26 +33,31 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/micro-status-vigo.git"
+    "url": "git+https://github.com/telemark/micro-status-vigo.git"
   },
   "bugs": {
-    "url": "http://github.com/telemarks/micro-status-vigo/issues"
+    "url": "https://github.com/telemarks/micro-status-vigo/issues"
   },
+  "homepage": "https://github.com/telemarks/micro-status-vigo#readme",
   "now": {
-    "alias": "vigo.status.t-fk.win"
-  },
-  "greenkeeper": {
-    "emails": false
+    "alias": "vigo.status.t-fk.win",
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "engines": {
+      "node": "8.9.3"
+    }
   },
   "devDependencies": {
     "coveralls": "3.0.0",
+    "micro-dev": "2.1.1",
     "nsp": "2.6.3",
     "standard": "8.6.0",
     "tap": "11.0.1"
   },
   "dependencies": {
     "got": "8.0.1",
-    "marked": "0.3.9",
+    "markdown-it": "8.4.0",
     "micro": "9.0.2"
   }
 }
