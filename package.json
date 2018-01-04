@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "coveralls": "3.0.0",
-    "micro-dev": "2.1.1",
+    "micro-dev": "2.1.2",
     "nsp": "2.6.3",
     "standard": "8.6.0",
     "tap": "11.0.1"
