@@ -53,7 +53,7 @@
     "micro-dev": "2.1.1",
     "nsp": "2.6.3",
     "standard": "8.6.0",
-    "tap": "11.0.1"
+    "tap": "11.1.0"
   },
   "dependencies": {
     "got": "8.0.2",
