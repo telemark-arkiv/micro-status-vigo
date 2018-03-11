@@ -58,6 +58,6 @@
   "dependencies": {
     "got": "8.2.0",
     "markdown-it": "8.4.1",
-    "micro": "9.1.0"
+    "micro": "9.1.4"
   }
 }
